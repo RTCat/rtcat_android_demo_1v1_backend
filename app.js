@@ -11,13 +11,11 @@ var util = require('util');
 
 var sockets = [];
 
-
-var api_key = '';
-var api_secret = '';
+var config = require('./config.js');
 
 var headers_x = {
-    'X-RTCAT-SECRET':api_secret,
-    'X-RTCAT-APIKEY':api_key
+    'X-RTCAT-SECRET':config.secret,
+    'X-RTCAT-APIKEY':config.key
 };
 
 var uri = 'api.realtimecat.com';
