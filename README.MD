@@ -9,6 +9,6 @@ module.exports.key = "xxxxx";
 module.exports.secret = "xxxxx";
 ```
 
-3.npm install 
+3.`npm install` 
 
-4.node app.js
+4.`node app.js`
